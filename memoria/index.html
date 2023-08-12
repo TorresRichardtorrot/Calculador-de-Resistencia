@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.electrocomponentes.es/9124-home_default/resistencia-220-ohm-025w.jpg" type="image/x-icon">
+    <title>Calculador de Resistencia</title>
+</head>
+<body>
+
+   <section class="contenedor">
+    <h2>Parametro de la resistencia</h2>
+    <div class="box_option">
+        <label for="banda_de_color_1">1.ª banda de color</label>
+        <select name="" id="banda_color_1" class="opcion_colores">
+            <option value="">selecciona un color</option>
+            <option class="color1" value="0">Negro 0</option>
+            <option class="color2" value="1">Marron 1</option>
+            <option class="color3" value="2">Rojo 2</option>
+            <option class="color4" value="3">Naranja 3</option>
+            <option class="color5" value="4">Amarillo 4</option>
+            <option class="color6" value="5">Verde 5</option>
+            <option class="color7" value="6">Azul 6</option>
+            <option class="color8" value="7">Violeta 7</option>
+            <option class="color9" value="8">Gris 8</option>
+            <option class="color10" value="9">Blanco 9</option>
+        </select>
+    </div>
+
+    <div class="box_option">
+        <label for="banda_de_color_2">2.ª banda de color</label>
+        <select name="" id="banda_color_2" class="opcion_colores">
+            <option value="">selecciona un color</option>
+            <option class="color1" value="0">Negro 0</option>
+            <option class="color2" value="1">Marron 1</option>
+            <option class="color3" value="2">Rojo 2</option>
+            <option class="color4" value="3">Naranja 3</option>
+            <option class="color5" value="4">Amarillo 4</option>
+            <option class="color6" value="5">Verde 5</option>
+            <option class="color7" value="6">Azul 6</option>
+            <option class="color8" value="7">Violeta 7</option>
+            <option class="color9" value="8">Gris 8</option>
+            <option class="color10" value="9">Blanco 9</option>
+        </select>
+    </div>
+
+    <div class="box_option">
+        <label for="multiplicador">Multiplicador</label>
+        <select name="" id="multiplicador" class="opcion_colores">
+            <option value="">selecciona un color</option>
+            <option class="color1" value="1">Negro x1 Ω</option>
+            <option class="color2" value="10">Marrón x10 Ω</option>
+            <option class="color3" value="100">Rojo x100 Ω</option>
+            <option class="color4" value="1000">Naranja x1 kΩ</option>
+            <option class="color5" value="10000">Amarillo x10 kΩ</option>
+            <option class="color6" value="100000">Verde x100 kΩ</option>
+            <option class="color7" value="1000000">Azul x1 MΩ</option>
+            <option class="color8" value="10000000">Violeta x10 MΩ</option>
+            <option class="color9" value="100000000">Gris x100 MΩ</option>
+            <option class="color10" value="1000000000">Blanco x1 GΩ</option>
+            <option class="color11" value="0.1">Oro x0.1 Ω</option>
+            <option class="color12" value="0.01">Plata x0.01 Ω</option>
+        </select>
+    </div>
+
+
+    <div class="box_option">
+        <label for="tolerancia">Tolerancia</label>
+        <select name="" id="tolerancia" class="opcion_colores">
+            <option value="">selecciona un color</option>
+            <option class="color2" value="1">Marrón ±1%</option>
+            <option class="color3" value="2">Rojo ±2%</option>
+            <option class="color6" value=".5">Verde ±0.5%</option>
+            <option class="color7" value=".25">Azul ±0.25%</option>
+            <option class="color8" value=".1">Violeta ±0.1%</option>
+            <option class="color9" value=".05">Gris ±0.05%</option>
+            <option class="color11" value="5">Oro ±5%</option>
+            <option class="color12" value="10">Plata ±10%</option>
+        </select>
+    </div>
+    <div>
+        <h5>Resultado: <span id="resultado"></span></h5>
+    </div>
+
+    <button type="button" id="calcular">Calcular</button>
+   </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
